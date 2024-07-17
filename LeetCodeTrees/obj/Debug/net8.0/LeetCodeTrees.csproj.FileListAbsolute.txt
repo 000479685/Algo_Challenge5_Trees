@@ -1,0 +1,14 @@
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\bin\Debug\net8.0\LeetCodeTrees.exe
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\bin\Debug\net8.0\LeetCodeTrees.deps.json
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\bin\Debug\net8.0\LeetCodeTrees.runtimeconfig.json
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\bin\Debug\net8.0\LeetCodeTrees.dll
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\bin\Debug\net8.0\LeetCodeTrees.pdb
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.GeneratedMSBuildEditorConfig.editorconfig
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.AssemblyInfoInputs.cache
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.AssemblyInfo.cs
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.csproj.CoreCompileInputs.cache
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.dll
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\obj\Debug\net8.0\refint\LeetCodeTrees.dll
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.pdb
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.genruntimeconfig.cache
+D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\obj\Debug\net8.0\ref\LeetCodeTrees.dll
