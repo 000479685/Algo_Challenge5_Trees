@@ -12,3 +12,18 @@ D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\obj\Debug\net8.0\refint\LeetCode
 D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.pdb
 D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.genruntimeconfig.cache
 D:\Algorithms\Trees\LeetCodeTrees\LeetCodeTrees\obj\Debug\net8.0\ref\LeetCodeTrees.dll
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\bin\Debug\net8.0\LeetCodeTrees.exe
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\bin\Debug\net8.0\LeetCodeTrees.deps.json
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\bin\Debug\net8.0\LeetCodeTrees.runtimeconfig.json
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\bin\Debug\net8.0\LeetCodeTrees.dll
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\bin\Debug\net8.0\LeetCodeTrees.pdb
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.AssemblyInfoInputs.cache
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.AssemblyInfo.cs
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.csproj.CoreCompileInputs.cache
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.sourcelink.json
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.dll
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\obj\Debug\net8.0\refint\LeetCodeTrees.dll
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.pdb
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\obj\Debug\net8.0\LeetCodeTrees.genruntimeconfig.cache
+D:\Projects\University stuff\Programing projects\C#\leetcode\Challenge5\Algo_Challenge5_Trees\LeetCodeTrees\obj\Debug\net8.0\ref\LeetCodeTrees.dll

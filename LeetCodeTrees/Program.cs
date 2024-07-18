@@ -22,40 +22,21 @@ namespace LeetCodeTrees
             {
                 IList<int> finalList = new List<int>();
                 
-                TreeNode left = root.left;
-                Boolean flag = true;
-
-                Stack<TreeNode> rightStack = new Stack<TreeNode>();
-                Stack<TreeNode> leftStack = new Stack<TreeNode>();
-
-                leftStack.Push(root);
-                rightStack.Push(root.right);
-                while (flag)
+                TreeNode left = root;
+                
+                Stack<TreeNode> leftStack = new Stack<TreeNode>();                
+                
+                while (left != null || leftStack.Count > 0)
                 {
                     while (left != null)
-                    {
-                        if (left.right != null)
-                            rightStack.Push(left.right);
-                        
+                    {                                                                        
                         leftStack.Push(left);
                         left = left.left;                        
                     }
+                    
+                left = leftStack.Peek().right;
+                finalList.Add(leftStack.Pop().val);
 
-                    Console.WriteLine($"{((leftStack.Count() > 0) ? leftStack.Peek().val : "Nothing")} | {(rightStack.Count() > 0 ? rightStack.Peek().val : "Nothing")} ");
-                    finalList.Add(leftStack.Pop().val);
-                    if (rightStack.Count > 0)
-                    {
-                        if (leftStack.Count > 0)
-                            finalList.Add(leftStack.Pop().val );
-                        left = rightStack.Pop();                        
-                    }
-                    else if (leftStack.Count > 0)
-                    {
-                        left = leftStack.Pop();
-                        finalList.Add((int)left.val);
-                    }
-                    else
-                        flag = false;
                 }
 
                 return finalList;
@@ -86,6 +67,7 @@ namespace LeetCodeTrees
 
             Console.WriteLine("-------INORDER TRAVERSAL----------");
             Console.WriteLine(String.Join(" ", questionRunner.InorderTraversal(root)));
+            Console.WriteLine(String.Join(" ", questionRunner.InorderTraversal(node7)));
 
         }
     }
