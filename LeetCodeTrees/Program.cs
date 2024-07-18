@@ -78,6 +78,32 @@ namespace LeetCodeTrees
 
                 return finalList;
             }
+
+
+            public IList<int> PreorderTraversal(TreeNode root)
+            {
+                IList<int> finalList = new List<int>();
+
+                TreeNode left = root;
+
+                Stack<TreeNode> leftStack = new Stack<TreeNode>();
+
+                while (left != null || leftStack.Count > 0)
+                {
+                    while (left != null)
+                    {
+                        finalList.Add(left.val);
+                        leftStack.Push(left);
+                        left = left.left;
+                    }
+
+                    left = leftStack.Peek().right;
+                    leftStack.Pop();
+
+                }
+
+                return finalList;
+            }
         }
 
 
@@ -109,6 +135,9 @@ namespace LeetCodeTrees
 
             Console.WriteLine("-------POSTORDER TRAVERSAL----------");
             Console.WriteLine(String.Join(" ", questionRunner.PostorderTraversal(root)));
+
+            Console.WriteLine("-------PREORDER TRAVERSAL----------");
+            Console.WriteLine(String.Join(" ", questionRunner.PreorderTraversal(root)));
         }
     }
 }
