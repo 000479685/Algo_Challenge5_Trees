@@ -29,7 +29,7 @@ namespace LeetCodeTrees
                 while (left != null || leftStack.Count > 0)
                 {
                     while (left != null)
-                    {                                                                        
+                    {   
                         leftStack.Push(left);
                         left = left.left;                        
                     }
@@ -38,6 +38,43 @@ namespace LeetCodeTrees
                 finalList.Add(leftStack.Pop().val);
 
                 }
+
+                return finalList;
+            }
+
+
+            public IList<int> PostorderTraversal(TreeNode root)
+            {
+                IList<int> finalList = new List<int>();
+                TreeNode left = root;
+                Stack<TreeNode> leftStack = new Stack<TreeNode>();
+
+                TreeNode lastFound = null;
+
+                while (left != null || leftStack.Count > 0)
+                {
+                    if (left != null)
+                    {
+                        leftStack.Push(left);
+                        left = left.left;
+                    }
+                    else
+                    {
+                        TreeNode temp = leftStack.Peek();
+                        if (temp.right != null && lastFound != temp.right)
+                        {
+                            left = temp.right;
+                        }
+                        else
+                        {
+                            leftStack.Pop();
+                            finalList.Add(temp.val);                            
+                            lastFound = temp;
+                        }
+                    }
+
+                }
+
 
                 return finalList;
             }
@@ -69,6 +106,9 @@ namespace LeetCodeTrees
             Console.WriteLine(String.Join(" ", questionRunner.InorderTraversal(root)));
             Console.WriteLine(String.Join(" ", questionRunner.InorderTraversal(node7)));
 
+
+            Console.WriteLine("-------POSTORDER TRAVERSAL----------");
+            Console.WriteLine(String.Join(" ", questionRunner.PostorderTraversal(root)));
         }
     }
 }
